@@ -58,14 +58,14 @@ img {
 
 #gallery-container {
     display: grid;
-    gap: 2em;
+    gap: 1em;
     justify-content: center;
-    margin: 2em;
+    margin-top: 1em;
 }
 
 figure {
-    width: 90%;
-    max-width: 650px;
+    width: 100%;
+    max-width: 700px;
     padding: 2rem;
     background-color: white;
 
@@ -94,10 +94,11 @@ footer {
 
 @media screen and (max-width: 768px) {
     li {
-        margin: 1rem;
+        margin: 1rem auto;
         border: 5px solid #97bf04;
-        width: 95%;
+        width: 100%;
         background-color: #d9043d;
+        
     }
 
     a {
