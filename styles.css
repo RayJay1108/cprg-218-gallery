@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Header */
+
+header {
+    background-color: #120323;
+    color: #97bf04;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 3em;
+}
+
+header nav ul li {
+    list-style: none;
+    border: 2px solid ;
+    background-color: #d9043d;
+    padding: 1em;
+    max-width: 700px;
+    
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
