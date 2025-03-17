@@ -92,6 +92,8 @@ footer {
     text-align: center;
 }
 
+/* Media Quaries*/
+
 @media screen and (max-width: 768px) {
     li {
         margin: 1rem auto;
@@ -109,10 +111,61 @@ footer {
 
 @media screen and (min-width: 768px) {
 
+    /* Header and*/
+
+    header {
+        padding: 0;
+    }
+
+/* Nav*/
+
     nav ul {
         display: flex;
         justify-content: center;
+        background-color: #d9043d;
+        padding: 1rem;
+        margin-top: 1rem;
+        width: 100%;
+        
     }
+
+    nav ul li {
+        border: none;
+
+    }
+
+    a {
+        padding: 0.7em
+    }
+
+    /* Main Content*/
+
+    h2 {
+        padding-bottom: 1em;
+    }
+
+  
+
+    #gallery-container{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5em;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+
+    figure:last-child{
+        grid-column: span 2;
+        padding: 0 auto;
+        margin: 0 auto;    
+        width: 100% auto;
+    }
+
+
+
+
+
+
 
    
 
