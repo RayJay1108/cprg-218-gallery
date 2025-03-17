@@ -35,6 +35,8 @@ header nav ul li a{
     
 }
 
+/* Main Content*/
+
 h2 {
     text-align: center;
 }
@@ -58,6 +60,14 @@ figure {
 
 figure img {
     border-bottom: 1em solid #97bf04;
+}
+
+/* Footer */
+
+footer {
+    padding: 2rem;
+    background-color: #d9043d; 
+    color: white;
 }
 
 
