@@ -13,23 +13,29 @@ body {
 header {
     background-color: #120323;
     color: #97bf04;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     padding-top: 3em;
 }
 
+.header-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
-header nav ul li {
+
+
+li {
     border: 2px solid ;
     background-color: #d9043d;
     list-style: none;
     padding: 1em;
     text-align: center;
     
+    
 }
 
-header nav ul li a{
+a {
     color: white;
     text-decoration: none;
     
@@ -68,6 +74,20 @@ footer {
     padding: 2rem;
     background-color: #d9043d; 
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    li {
+        margin: 1rem auto;
+        border: 5px solid #97bf04;
+        width: 95%;
+        background-color: #d9043d;
+    }
+
+    a {
+        display: block;
+        padding: 1em; 
+    }
 }
 
 
