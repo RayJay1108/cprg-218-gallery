@@ -76,8 +76,10 @@ figure img {
 }
 
 figcaption {
-    margin: 1rem;
+    margin-top: 1em;
 }
+
+
 
 
 /* Footer */
@@ -91,11 +93,13 @@ footer {
 
 /* Media Quaries*/
 
+/* Some extra for phone size..*/
+
 @media screen and (max-width: 768px) {
     li {
         margin: 1rem auto;
         border: 5px solid #97bf04;
-        width: 100%;
+        width: 95%;
         background-color: #d9043d;
         
     }
@@ -105,6 +109,8 @@ footer {
         padding: 1em; 
     }
 }
+
+/* Media size for Ipad */
 
 @media screen and (min-width: 768px) {
 
@@ -119,15 +125,18 @@ footer {
     nav ul {
         display: flex;
         justify-content: center;
-        background-color: #d9043d;
+        background-color: pink;
         padding: 1rem;
         margin-top: 1rem;
         width: 100%;
         
     }
 
+    /* Instruction says that the nav should be pink so I just put pink..*/
+
     nav ul li {
         border: none;
+        background-color: pink;
 
     }
 
@@ -158,6 +167,8 @@ footer {
     }
     
 }
+
+/* Media screen larger than Ipad or for Web*/
 
 @media screen and (min-width: 1000px) {
     #gallery-container {
