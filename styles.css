@@ -142,7 +142,6 @@ footer {
     }
 
   
-
     #gallery-container{
         display:grid;
         grid-template-columns: 1fr 1fr;
@@ -162,8 +161,11 @@ footer {
 
 @media screen and (min-width: 1000px) {
     #gallery-container {
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
+
 }
 
 
